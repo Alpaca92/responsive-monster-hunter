@@ -212,7 +212,7 @@ body {
 .container__num-03 {
   padding: 40px 30px;
   color: #fff;
-  background-color: #546FAC;
+  background-color: #546fac;
   transition: all 0.5s ease-in-out;
 }
 
@@ -250,7 +250,7 @@ body {
 .container__num-11 {
   padding: 40px 30px;
   color: #fff;
-  background-color: #546FAC;
+  background-color: #546fac;
   transition: all 0.5s ease-in-out;
 }
 
@@ -261,13 +261,13 @@ body {
 .container__num-02:hover,
 .container__num-06:hover {
   color: #fff;
-  background-color: #293C5D;
+  background-color: #293c5d;
 }
 
 .container__num-03:hover,
 .container__num-11:hover {
   color: #fff;
-  background-color: #293C5D;
+  background-color: #293c5d;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1536px) {
@@ -314,7 +314,7 @@ body {
   .container__num-04 {
     background-image: url(../img/pic_ice2.jpg);
   }
-  
+
   .container__num-05 {
     background-image: url(../img/pic_ice3.jpg);
   }
@@ -322,16 +322,16 @@ body {
   .container__num-07 {
     background-image: url(../img/pic_ice4.jpg);
   }
-  
+
   .container__num-09 {
     grid-column: span 2;
     background-image: url(../img/pic_ice5.jpg);
   }
-  
+
   .container__num-10 {
     background-image: url(../img/pic_ice6.jpg);
   }
-  
+
   .container__num-12 {
     background-image: url(../img/pic_ice7.jpg);
   }
@@ -378,6 +378,10 @@ body {
     grid-auto-rows: calc(100% / 3);
   }
 
+  .container__num-01 {
+    background-image: url(../img/pic_ice1.jpg);
+  }
+
   .container__num-02 {
     grid-column: span 1;
     padding: 25px;
@@ -387,8 +391,17 @@ body {
     padding: 25px;
   }
 
+  .container__num-04 {
+    background-image: url(../img/pic_ice2.jpg);
+  }
+
+  .container__num-05 {
+    background-image: url(../img/pic_ice3.jpg);
+  }
+
   .container__num-07 {
     grid-column: span 2;
+    background-image: url(../img/pic_ice4.jpg);
   }
 
   .container__num-08 {
@@ -397,6 +410,11 @@ body {
 
   .container__num-09 {
     grid-column: span 1;
+    background-image: url(../img/pic_ice5.jpg);
+  }
+
+  .container__num-10 {
+    background-image: url(../img/pic_ice6.jpg);
   }
 
   .container__num-11 {
@@ -405,6 +423,7 @@ body {
 
   .container__num-12 {
     grid-column: span 2;
+    background-image: url(../img/pic_ice7.jpg);
   }
 }
 
@@ -449,6 +468,10 @@ body {
     grid-auto-rows: calc(100% / 3);
   }
 
+  .container__num-01 {
+    background-image: url(../img/pic_ice1.jpg);
+  }
+
   .container__num-02 {
     grid-column: span 2;
     padding: 25px;
@@ -458,8 +481,13 @@ body {
     padding: 25px;
   }
 
+  .container__num-04 {
+    background-image: url(../img/pic_ice2.jpg);
+  }
+
   .container__num-05 {
     grid-column: span 2;
+    background-image: url(../img/pic_ice3.jpg);
   }
 
   .container__num-06 {
@@ -468,6 +496,7 @@ body {
 
   .container__num-07 {
     grid-column: span 1;
+    background-image: url(../img/pic_ice4.jpg);
   }
 
   .container__num-08 {
@@ -476,6 +505,11 @@ body {
 
   .container__num-09 {
     grid-column: span 1;
+    background-image: url(../img/pic_ice5.jpg);
+  }
+
+  .container__num-10 {
+    background-image: url(../img/pic_ice6.jpg);
   }
 
   .container__num-11 {
@@ -485,6 +519,7 @@ body {
 
   .container__num-12 {
     grid-column: span 3;
+    background-image: url(../img/pic_ice7.jpg);
   }
 }
 
@@ -539,7 +574,8 @@ body {
 
   .container__num-01 {
     grid-column: 1 / -1;
-    grid-row : span 2;
+    grid-row: span 2;
+    background-image: url(../img/pic_ice1.jpg);
   }
 
   .container__num-02 {
@@ -554,10 +590,12 @@ body {
 
   .container__num-04 {
     grid-column: span 2;
+    background-image: url(../img/pic_ice2.jpg);
   }
 
   .container__num-05 {
     grid-column: span 2;
+    background-image: url(../img/pic_ice3.jpg);
   }
 
   .container__num-06 {
@@ -568,6 +606,7 @@ body {
   .container__num-07 {
     grid-column: span 2;
     order: 1;
+    background-image: url(../img/pic_ice4.jpg);
   }
 
   .container__num-08 {
@@ -579,11 +618,13 @@ body {
   .container__num-09 {
     grid-column: span 2;
     order: 1;
+    background-image: url(../img/pic_ice5.jpg);
   }
 
   .container__num-10 {
     grid-column: span 2;
     order: 1;
+    background-image: url(../img/pic_ice6.jpg);
   }
 
   .container__num-11 {
@@ -594,5 +635,6 @@ body {
   .container__num-12 {
     grid-column: 1 / -1;
     order: 1;
+    background-image: url(../img/pic_ice7.jpg);
   }
 }
